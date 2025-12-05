@@ -258,7 +258,7 @@ int main() {
     cout << "\nBooks by author containing 'Vazov':\n";
     for (const auto& bk : lib.findByAuthor("Vazov"))
         cout << bk.to_string() << "\n";
-
-    cout << "\nMade by BoyanMasterCoder (22403)\n";
+    
     return 0;
 }
+
